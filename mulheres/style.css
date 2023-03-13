@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("./img/mulheres.webp");
+    background-repeat: no-repeat;
+    background-position: top center, right;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+
+    height: 60vh;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: white;
+
+    margin-top: 10px;
+}
+.subtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+    text-align: center;
+    margin: 50px 70px 0px 70px;
+}
+svg{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+h3{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    height: 150px;
+}
+.woman-1{
+    display: flex;
+    justify-content: center;
+
+    margin: 50px 70px 0px 70px;
+}
+.box{
+    background-color: rgb(206, 102, 146);
+    width: 680px;
+    height: 310px;
+    border-radius: 8px;
+
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h4{
+    margin-top: 50px;
+}
+.text{
+    margin-top: 15px;
+}
+.woman-2{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+.woman-3{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+.woman-4{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+.woman-5{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+.woman-6{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 150px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(201, 130, 177);
+    color: white;
+    height: 150px;
+
+    margin-top: 100px;
+}
+.direitos{
+    display: flex;
+    align-items: center;
+}
